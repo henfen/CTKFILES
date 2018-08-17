@@ -41,9 +41,9 @@ Save the new values and exit.
 
 Go to your test directory and type the following command:
 
-> newman run CTK-TMF679-ProductOfferingQualification.postman_collection.json -e TMForumR2018.0-PaneOn.postman_environment.json --reporters html --reporter-html-export TMF679-ProductOfferingQualification-report.html
+> newman run CTK-TMF679-ProductOfferingQualification.postman_collection.json -e TMForumR2018.0-PaneOn.postman_environment.json --reporters html json --reporter-html-export TMF679-ProductOfferingQualification-report.html --reporter-json-export TMF679-ProductOfferingQualification-report.json
 
-where ServiceQualificationCTKResult.html and ServiceQualificationCTKResult.json will contain the results of the CTK execution. You should see something like the following example:
+where TMF679-ProductOfferingQualification-report.html and TMF679-ProductOfferingQualification-report.json will contain the results of the CTK execution. You should see something like the following example:
 ![CTK Example Image](https://github.com/henfen/CTKFILES/blob/master/TMF679-ProductOfferingQualification/Output-Example.png)
 
 
