@@ -40,45 +40,7 @@ Go to your test directory and type the following command:
 > newman run CTK-TMF679-ProductOfferingQualification.postman_collection.json -e TMForumR2018.0-PaneOn.postman_environment.json --reporters html --reporter-html-export TMF679-ProductOfferingQualification-report.html
 
 where ServiceQualificationCTKResult.html and ServiceQualificationCTKResult.json will contain the results of the CTK execution. You should see something like the following example:
-
-Newman Report
-Collection
-CTK-TMF679-ProductOfferingQualification
-Description
-This is Swagger UI environment generated for the TMF Trouble Ticket specification 
-Time
-Fri Aug 17 2018 16:13:29 GMT+0100 (IST)
-Exported with
-Newman v
- 
- 
-Total
-Failed
-Iterations
-1
-0
-Requests
-12
-0
-Prerequest Scripts
-0
-0
-Test Scripts
-12
-0
-Assertions
-188
-0
- 
-Total run duration
-5.6s
-Total data received
-44.86KB (approx)
-Average response time
-428ms
- 
-Total Failures
-0
+![CTK Example Image](https://github.com/henfen/CTKFILES/blob/master/TMF679-ProductOfferingQualification/Output-Example.png)
 
 
 If they are no failures then you have passed the CTK and your API is conformant with all
