@@ -11,6 +11,7 @@ You should see the following files:
 -TMFENV : the Environment variable for the REST API Endpoint
 
 Open the TMForumR2018.0-PaneOn.postman_environment.json file and change the following host value to match your endpoint. Note that by default the environment is pointing to the Sandbox endpoint. 
+```json
 {
       "key": "schema",
       "value": "https",
@@ -26,13 +27,16 @@ Open the TMForumR2018.0-PaneOn.postman_environment.json file and change the foll
 	"value": "8080",
 	"enabled": true
 },
+```
 now look for the ProductOfferingQualificationAPI key and change it so that it matches the URL for the ServiceQualification resource:
+```json
 {
 	"key": "ProductOfferingQualificationAPI",
 	"value": "{{schema}}://{{host}}:{{port}}/tmf-api/productOfferingQualificationManagement/v1",
 	"description": "",
 	"enabled": true
 },
+```
 Save the new values and exit.
 
 Go to your test directory and type the following command:
