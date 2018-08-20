@@ -47,7 +47,7 @@ where TMF679-ProductOfferingQualification-report.html and TMF679-ProductOffering
 ![CTK Example Image](https://github.com/henfen/CTKFILES/blob/master/TMF679-ProductOfferingQualification/Output-Example.png)
 
 
-If they are no failures then you have passed the CTK and your API is conformant with all
+If there are no failures then you have passed the CTK and your API is conformant with all
 the Mandatory features.
 
 The results of the CTK are also in  the TMF679-ProductOfferingQualification-report.html
