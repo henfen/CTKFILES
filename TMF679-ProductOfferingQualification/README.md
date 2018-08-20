@@ -7,8 +7,8 @@ http://nodejs.org/download/
 Once Node.js and Newman are installed download and unzip the TMF679-ProductOfferingQualification ZIP file within your test directory.
 
 You should see the following files:
--ProductOfferingQualificationV#.postman_collection : the postman collection for the Mandatory tests
--TMFENV : the Environment variable for the REST API Endpoint
+-CTK-TMF679-ProductOfferingQualification.postman_collection.json : the postman collection for the Mandatory tests
+-TMForumR2018.0-PaneOn.postman_environment : the Environment variable for the REST API Endpoint
 
 Open the TMForumR2018.0-PaneOn.postman_environment.json file and change the following host value to match your endpoint. Note that by default the environment is pointing to the Sandbox endpoint. 
 ```json
