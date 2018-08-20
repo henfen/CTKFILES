@@ -1,4 +1,4 @@
-# PRODUCTOFFERINGQUALIFICATION-CTK
+# PRODUCT OFFERING QUALIFICATION-CTK
 Installing and Running the Product Offering Qualification CTK
 The Product Offering Qualification CTK is dependent on the installation of node.js and Newman to work.
 The installation instructions for Newman are found here: https://www.getpostman.com/docs/newman_intro
